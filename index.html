@@ -10,12 +10,39 @@
     <header>
         <h2>Estimate by test-cases</h2>
     </header>
-    <section>
-        <h3>Number of cases</h3>
+    <section>        
         <div>
-            <input type="text" id="caseNum" name="caseNum" value="">
-            <input type="button" id="count" value="count">
+            <span>
+                <label for="Number of Cases">Number of Cases</label>
+            </span>
+            <span>
+                <input type="text" id="caseNum" name="caseNum">
+            </span>
         </div>
+        <div>
+            <span>
+                <label for="Time for one case">Time for one case /min</label>
+            </span>
+            <span>
+                <input type="text" id="timeForCase" name="timeForCase" value = "15">
+            </span>
+        </div>
+        <div>
+            <span>
+                <label for="Percent for risk">Percent for risk</label>
+            </span>
+            <span>
+                <input type="text" id="riskPercent" name="riskPercent" value = "30">
+            </span>
+        </div>
+        <div>
+            <span>
+                <label for="Percent for other">Other</label>
+            </span>
+            <span>
+                <input type="text" id="otherPercent" name="otherPercent"value = "20">
+            </span>
+        </div>       
         <div>
             <span>Time</span>
             <span id="time"></span>
